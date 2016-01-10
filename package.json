@@ -6,6 +6,10 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/anubhav7495/markdir.git"
+  },
   "preferGlobal": true,
   "bin": {
     "mark": "index.js"
@@ -20,9 +24,9 @@
     "process",
     "dir",
     "bash",
-    "path"
+    "path",
     "v",
-    "z"
+    "z",
     "mark"
   ],
   "author": "anubhav7495",
