@@ -1,6 +1,6 @@
 {
   "name": "markdir",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Bookmark most commonly used directories easily",
   "main": "index.js",
   "scripts": {
@@ -14,11 +14,13 @@
   "bin": {
     "mark": "index.js"
   },
-    "files": [
+  "files": [
     "index.js",
     "lib"
   ],
-  "os" : [ "!win32" ],
+  "os": [
+    "!win32"
+  ],
   "keywords": [
     "shell",
     "process",
