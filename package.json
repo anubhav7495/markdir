@@ -1,0 +1,33 @@
+{
+  "name": "markdir",
+  "version": "1.0.0",
+  "description": "Bookmark most commonly used directories easily",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "preferGlobal": true,
+  "bin": {
+    "mark": "index.js"
+  },
+    "files": [
+    "index.js",
+    "lib"
+  ],
+  "os" : [ "!win32" ],
+  "keywords": [
+    "shell",
+    "process",
+    "dir",
+    "bash",
+    "path"
+    "v",
+    "z"
+    "mark"
+  ],
+  "author": "anubhav7495",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^1.1.1"
+  }
+}
