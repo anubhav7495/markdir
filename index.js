@@ -17,7 +17,10 @@ else {
     console.log('\n' + chalk.bold.green(list));
   }
   if(process.argv[2] === '-setup') {
-    setup.init(fs, home);
+    var x1 = process.env.SHELL;
+    var x2 = x1.split('/');
+    var str = '/.' + x2[x2.length-1] + 'rc';
+    setup.init(fs, home, str);
   }
   if(process.argv[2] === '-r') {
     if(!process.argv[3])
